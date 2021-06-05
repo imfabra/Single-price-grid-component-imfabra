@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    /* Colors */ 
+    --color-background: hsl(204, 43%, 93%);
+    --color-primary: hsl(179, 62%, 43%);
+    --color-secondary: hsl(179, 62%, 43%);
+    --color-highlight: hsl(71, 73%, 54%);
+    --color-light1: hsl(0, 0, 100);
+    --color-light2: hsl(0, 0, 100, 75%);
+    --color-light2: hsl(0, 0, 100, 50%);
+    --color-light2: hsl(218, 22%, 67%);
+
+    /* Typography */
+    --font-base: 'Karla', sans-serif;
+    --headline1: 700 24px/28px var(--font-base); /* latter-spacing: -0.3px */
+    --headline2: 700 20px/23px var(--font-base); /* latter-spacing: -0.25px */
+    --headline3: 700 18px/21px var(--font-base); /* latter-spacing: -0.22px */
+    --caption1: 700 18px/21px var(--font-base); /* latter-spacing: -0.22px */
+    --caption2: 700 15px/20px var(--font-base); /* latter-spacing: -0.19px */
+    --content1: 16px/26px var(--font-base); /* latter-spacing: -0.2px */
+    --content2: 14px/20px var(--font-base); /* latter-spacing: -0.17px */
+    --highlight: 700 16px/19px var(--font-base); /* latter-spacing: -0.2px */
+}
+
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
