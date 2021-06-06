@@ -1,26 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
+@import './card-wrapper/card-wrapper.css';
+@import './card-info/card-info.css';
+@import './card-subscription/card-subscription.css';
+@import './button-primary/button-primary.css';
+@import './card-us/card-us.css';
+
 :root {
     /* Colors */ 
     --color-background: hsl(204, 43%, 93%);
     --color-primary: hsl(179, 62%, 43%);
-    --color-secondary: hsl(179, 62%, 43%);
+    --color-secondary: hsl(179, 48%, 52%);
     --color-highlight: hsl(71, 73%, 54%);
-    --color-light1: hsl(0, 0, 100);
-    --color-light2: hsl(0, 0, 100, 75%);
-    --color-light2: hsl(0, 0, 100, 50%);
-    --color-light2: hsl(218, 22%, 67%);
+    --color-light1: hsl(0, 0%, 100%);
+    --color-light2: hsl(0, 0%, 100%, 65%);
+    --color-light3: hsl(0, 0%, 100%, 50%);
+    --color-light4: hsl(218, 22%, 67%);
 
     /* Typography */
     --font-base: 'Karla', sans-serif;
-    --headline1: 700 24px/28px var(--font-base); /* latter-spacing: -0.3px */
-    --headline2: 700 20px/23px var(--font-base); /* latter-spacing: -0.25px */
-    --headline3: 700 18px/21px var(--font-base); /* latter-spacing: -0.22px */
-    --caption1: 700 18px/21px var(--font-base); /* latter-spacing: -0.22px */
-    --caption2: 700 15px/20px var(--font-base); /* latter-spacing: -0.19px */
-    --content1: 16px/26px var(--font-base); /* latter-spacing: -0.2px */
-    --content2: 14px/20px var(--font-base); /* latter-spacing: -0.17px */
-    --highlight: 700 16px/19px var(--font-base); /* latter-spacing: -0.2px */
+    --headline1: 700 24px/28px var(--font-base); /* letter-spacing: -0.3px */
+    --headline2: 700 20px/23px var(--font-base); /* letter-spacing: -0.25px */
+    --headline3: 700 18px/21px var(--font-base); /* letter-spacing: -0.22px */
+    --caption1: 700 18px/21px var(--font-base); /* letter-spacing: -0.22px */
+    --caption2: 700 15px/20px var(--font-base); /* letter-spacing: -0.19px */
+    --content1: 16px/26px var(--font-base); /* letter-spacing: -0.2px */
+    --content2: 14px/26px var(--font-base); /* letter-spacing: -0.17px */
+    --content3: 14px/20px var(--font-base); /* letter-spacing: -0.17px */
+    --highlight: 700 16px/19px var(--font-base); /* letter-spacing: -0.2px */
 }
 
 
@@ -32,5 +39,47 @@
 
 html {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    inline-size: 100%;
+    min-block-size: 100vh;
+    font-family: var(--font-base);
+    background-color: var(--color-background);
+}
+
+.container {
+    margin: 0 auto;
+    max-inline-size: 635px;
+    min-block-size: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-inline-start: 32px;
+    margin-inline-end: 32px;
+    margin-block-start: 72px;
+    margin-block-end: 62px;
+
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+}
+
+@media only screen and (min-width: 1440px) {
+    .wrapper {
+        margin: 0;
+        max-block-size: 475px;
+        border-radius: 8px;
+    }
 }
 

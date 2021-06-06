@@ -1,0 +1,6 @@
+.card-subscription__caption--text-secondary {
+    font: var(--content1);
+    letter-spacing: -0.2px;
+    color: var(--color-light3);
+    margin-inline-start: 11px;
+}

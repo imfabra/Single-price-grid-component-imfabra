@@ -1,0 +1,13 @@
+@import './__headline/card-us__headline.css';
+@import './__content/card-us__content.css';
+
+.card-us {
+    background-color: var(--color-secondary);
+    flex-grow: 1;
+}
+
+@media only screen and (min-width: 1440px) {
+    .card-us {
+        max-inline-size: 318px;
+    }
+}

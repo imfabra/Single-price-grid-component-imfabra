@@ -1,0 +1,7 @@
+@import './__headline/card-info__headline.css';
+@import './__caption/card-info__caption.css';
+@import './__content/card-info__content.css';
+
+.card-info {
+    background-color: var(--color-light1);
+}

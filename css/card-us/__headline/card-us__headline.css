@@ -1,0 +1,6 @@
+.card-us__headline {
+    font: var(--headline3);
+    letter-spacing: -0.22px;
+    color: var(--color-light1);
+    margin: 0;
+}

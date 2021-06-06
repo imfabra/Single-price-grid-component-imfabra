@@ -1,0 +1,16 @@
+.card-info__content {
+    font: var(--content2);
+    letter-spacing: -0.17px;
+    color: var(--color-light4);
+
+    margin-block-start: 16px;
+    margin-block-end: 32px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .card-info__content {
+        font: var(--content1);
+
+        margin-block-start: 11px;
+    }
+}

@@ -1,0 +1,8 @@
+@import './__headline/card-subscription__headline.css';
+@import './__caption/card-subscription__caption.css';
+@import './__content/card-subscription__content.css';
+
+.card-subscription {
+    background-color: var(--color-primary);
+    flex-grow: 1;
+}

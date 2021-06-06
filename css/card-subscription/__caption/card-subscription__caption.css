@@ -1,0 +1,15 @@
+@import './--text-secondary/card-subscription__caption--text-secondary.css';
+
+.card-subscription__caption {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37,41px;
+    letter-spacing: -0.4px;
+    color: var(--color-light1);
+
+    margin-block-start: 18px;
+    margin-block-end: 0px;
+
+    display: flex;
+    align-items: center;
+}

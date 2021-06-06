@@ -1,0 +1,14 @@
+.card-us__content {
+    font: var(--content3);
+    letter-spacing: -0.17px;
+    color: var(--color-light2);
+    margin-block-start: 18px;
+    margin-block-end: 0px;
+    padding-inline-end: 80px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .card-us__content {
+        padding-inline-end: 40px;
+    }
+}

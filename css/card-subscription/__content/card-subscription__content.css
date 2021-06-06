@@ -1,0 +1,8 @@
+.card-subscription__content {
+    font: var(--content1);
+    letter-spacing: -0.2px;
+    color: var(--color-light1);
+
+    margin-block-start: 4px;
+    margin-block-end: 0px;
+}

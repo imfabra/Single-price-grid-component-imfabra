@@ -1,0 +1,13 @@
+.card-info__headline {
+    margin-block-start: 4px;
+    margin-block-end: 0px;
+    font: var(--headline2);
+    letter-spacing: -0.25px;
+    color: var(--color-primary);
+}
+
+@media only screen and (min-width: 1440px) {
+    .card-info__headline {
+        font: var(--headline1);
+    }
+}
