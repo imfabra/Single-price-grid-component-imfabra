@@ -6,7 +6,7 @@
     flex-grow: 1;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 768px) {
     .card-us {
         max-inline-size: 318px;
     }

@@ -2,7 +2,7 @@
     margin: 7.717041801%;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 768px) {
     .card-wrapper {
         margin: 40px;
     }
